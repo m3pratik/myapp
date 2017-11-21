@@ -1,0 +1,44 @@
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.2.0.js"></script>
+<%= Gon::Base.render_data %>
+
+<h1>Channel Room</h1>
+
+<%= form_tag("/send_message", method: "post", :remote => true, :id => "message_form") do %>
+    <div>
+      <%= text_field_tag :message, params[:message] %>
+    </div>
+
+    <div>
+      <%= hidden_field_tag(:current_channel, @channel) %>
+    </div>
+
+    <div>
+      <%= hidden_field_tag(:current_username, @username) %>
+    </div>
+
+    <div>
+      <%= submit_tag("Send")%>
+    </div>
+<% end %>
+
+<h3>Messages</h3>
+
+<div id="history">
+  <% if !@history_messages.empty? %>
+    <% @history_messages.each do |msg|%>
+        <p><%= msg['sender']%> : <%= msg['message']%></p>
+    <% end %>
+  <% end%>
+</div>
+
+<div id="messages">
+</div>
+
+
+<p>
+  <%= link_to "Leave Chatroom", {:controller => "chat", :action => "unsubscribe", :channel => @channel } %>
+</p>
+
+<h3>Online</h3>
+<div id="online">
+</div>

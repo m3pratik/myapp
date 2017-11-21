@@ -40,6 +40,8 @@ gem 'jquery-rails'
 
 gem 'font-awesome-sass'
 
+gem 'pubnub', '~> 4.0.27'
+gem 'gon'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

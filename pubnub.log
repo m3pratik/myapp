@@ -1,0 +1,169 @@
+# Logfile created on 2017-11-21 16:17:57 +0530 by logger.rb/56815
+D, [2017-11-21T16:17:57.363152 #14922] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2017-11-21T16:17:57.363259 #14922] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.27
+D, [2017-11-21T16:17:57.363684 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2017-11-21T16:17:57.363774 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2017-11-21T16:17:57.363974 #14922] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2017-11-21T16:17:57.364004 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:17:57.364020 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:17:57.364036 #14922] DEBUG -- Pubnub::Client: Looking for requester for sync single_event
+D, [2017-11-21T16:17:57.364182 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:17:57.364289 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/channel/test?count=20&pnsdk=PubNub-Ruby%2F4.0.27&uuid=krishna
+D, [2017-11-21T16:17:57.904265 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:17:57.904454 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2017-11-21T16:18:06.919830 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:18:06.920022 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:18:06.924826 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:18:06.924977 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:06.925013 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:06.925049 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:18:06.925252 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:06.925497 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/test/0/%7B%22sender%22%3A%22krishna%22%2C%22message%22%3A%22krishasfsdf%22%7D?ortt=%7B%22t%22%3A15112612869200748%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=1&uuid=krishna
+D, [2017-11-21T16:18:07.293411 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:07.293668 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-11-21T16:18:14.786892 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:18:14.786992 #14922] DEBUG -- Pubnub::Telemetry: Current average: 0.36765623092651367
+D, [2017-11-21T16:18:14.787058 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Leave
+D, [2017-11-21T16:18:14.787559 #14922] DEBUG -- Pubnub::Subscriber: Removing subscription from Subscriber
+D, [2017-11-21T16:18:14.787749 #14922] DEBUG -- Pubnub::Subscriber: Removed subscription from Subscriber
+D, [2017-11-21T16:18:14.787796 #14922] DEBUG -- Pubnub::Event: Fired event Pubnub::Leave
+D, [2017-11-21T16:18:14.787817 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:14.787836 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:14.787854 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:18:14.787871 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:14.788022 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/presence/sub-key/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/channel/test/leave?l_pub=0.368&pnsdk=PubNub-Ruby%2F4.0.27&uuid=krishna
+D, [2017-11-21T16:18:15.572768 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:15.573021 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Leave
+D, [2017-11-21T16:18:21.740851 #14922] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2017-11-21T16:18:21.740954 #14922] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.27
+D, [2017-11-21T16:18:21.741443 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2017-11-21T16:18:21.741584 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2017-11-21T16:18:21.741830 #14922] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2017-11-21T16:18:21.741877 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:21.741906 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:21.741921 #14922] DEBUG -- Pubnub::Client: Looking for requester for sync single_event
+D, [2017-11-21T16:18:21.742137 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:21.742257 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/channel/sf?count=20&pnsdk=PubNub-Ruby%2F4.0.27&uuid=krishnasadfojsdfojsdfojsdf%5Bojzsdfoj
+D, [2017-11-21T16:18:22.210250 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:22.210450 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2017-11-21T16:18:29.699457 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:18:29.699593 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:18:29.703990 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:18:29.704769 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:29.704849 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:29.704892 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:18:29.705068 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:29.705294 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/sf/0/%7B%22sender%22%3A%22krishnasadfojsdfojsdfojsdf%5Bojzsdfoj%22%2C%22message%22%3A%22dsf%3Bljdfs%22%7D?ortt=%7B%22t%22%3A15112613096996432%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=1&uuid=krishnasadfojsdfojsdfojsdf%5Bojzsdfoj
+D, [2017-11-21T16:18:30.085189 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:30.085389 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-11-21T16:18:37.826478 #14922] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2017-11-21T16:18:37.826668 #14922] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.27
+D, [2017-11-21T16:18:37.827404 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2017-11-21T16:18:37.827491 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2017-11-21T16:18:37.827617 #14922] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2017-11-21T16:18:37.827650 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:37.827670 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:37.827689 #14922] DEBUG -- Pubnub::Client: Looking for requester for sync single_event
+D, [2017-11-21T16:18:37.828035 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:37.828148 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/channel/sf?count=20&pnsdk=PubNub-Ruby%2F4.0.27&uuid=krishnasadfojsdfojsdfojsdf%5Bojzsdfoj
+D, [2017-11-21T16:18:38.305591 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:38.305751 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2017-11-21T16:18:46.225029 #14922] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2017-11-21T16:18:46.225103 #14922] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.27
+D, [2017-11-21T16:18:46.225577 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2017-11-21T16:18:46.225658 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2017-11-21T16:18:46.225820 #14922] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2017-11-21T16:18:46.225863 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:46.225883 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:46.225905 #14922] DEBUG -- Pubnub::Client: Looking for requester for sync single_event
+D, [2017-11-21T16:18:46.226039 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:46.226135 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/channel/sf?count=20&pnsdk=PubNub-Ruby%2F4.0.27&uuid=pratik
+D, [2017-11-21T16:18:46.753672 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:46.753836 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2017-11-21T16:18:51.287184 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:18:51.287333 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:18:51.291881 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:18:51.291952 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:51.291990 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:51.292026 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:18:51.292196 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:51.292439 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/sf/0/%7B%22sender%22%3A%22pratik%22%2C%22message%22%3A%22tset%22%7D?ortt=%7B%22t%22%3A15112613312873852%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=1&uuid=pratik
+D, [2017-11-21T16:18:51.641750 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:51.641944 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-11-21T16:18:53.725370 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:18:53.725445 #14922] DEBUG -- Pubnub::Telemetry: Current average: 0.34909987449645996
+D, [2017-11-21T16:18:53.725535 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:18:53.729648 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:18:53.729714 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:18:53.729748 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:18:53.729789 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:18:53.729822 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:18:53.730053 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/sf/0/%7B%22sender%22%3A%22pratik%22%2C%22message%22%3A%22dfgdfg%22%7D?l_pub=0.349&ortt=%7B%22t%22%3A15112613337255726%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=2&uuid=pratik
+D, [2017-11-21T16:18:53.894396 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:18:53.894577 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-11-21T16:19:57.475947 #14922] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2017-11-21T16:19:57.476113 #14922] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.27
+D, [2017-11-21T16:19:57.476961 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2017-11-21T16:19:57.477085 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2017-11-21T16:19:57.477288 #14922] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2017-11-21T16:19:57.477329 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:19:57.477368 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:19:57.477406 #14922] DEBUG -- Pubnub::Client: Looking for requester for sync single_event
+D, [2017-11-21T16:19:57.477573 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:19:57.477988 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/channel/sf?count=20&pnsdk=PubNub-Ruby%2F4.0.27&uuid=kv
+D, [2017-11-21T16:19:58.039187 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:19:58.039391 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2017-11-21T16:26:26.426083 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:26:26.426229 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:26:26.430803 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:26:26.431574 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:26:26.431710 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:26:26.431791 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:26:26.432083 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:26:26.469689 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/sf/0/%7B%22sender%22%3A%22kv%22%2C%22message%22%3A%22sadsaddsa%22%7D?ortt=%7B%22t%22%3A15112617864262652%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=1&uuid=kv
+D, [2017-11-21T16:26:26.820283 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:26:26.820477 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-11-21T16:26:57.502907 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:26:57.503005 #14922] DEBUG -- Pubnub::Telemetry: Current average: 0.3504502773284912
+D, [2017-11-21T16:26:57.503133 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:26:57.507471 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:26:57.507540 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:26:57.507569 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:26:57.507657 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:26:57.507699 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:26:57.508447 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/sf/0/%7B%22sender%22%3A%22kv%22%2C%22message%22%3A%22asadsd%22%7D?l_pub=0.35&ortt=%7B%22t%22%3A15112618175031898%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=2&uuid=kv
+D, [2017-11-21T16:26:57.663141 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:26:57.663354 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-11-21T16:27:26.685520 #14922] DEBUG -- Pubnub::Telementry: Initialized Telemetry
+D, [2017-11-21T16:27:26.685715 #14922] DEBUG -- Pubnub::Client: Created new Pubnub::Client instance. Version: 4.0.27
+D, [2017-11-21T16:27:26.686367 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_hist
+D, [2017-11-21T16:27:26.686472 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::History
+D, [2017-11-21T16:27:26.686609 #14922] DEBUG -- Pubnub::Event: Fired event Pubnub::History
+D, [2017-11-21T16:27:26.686649 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:27:26.686672 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:27:26.686727 #14922] DEBUG -- Pubnub::Client: Looking for requester for sync single_event
+D, [2017-11-21T16:27:26.686871 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:27:26.686973 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/v2/history/sub-key/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/channel/sf?count=20&pnsdk=PubNub-Ruby%2F4.0.27&uuid=kv
+D, [2017-11-21T16:27:27.155229 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:27:27.155480 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::History
+D, [2017-11-21T16:27:32.232909 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:27:32.233029 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:27:32.237684 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:27:32.238350 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:27:32.238415 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:27:32.238461 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:27:32.238646 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:27:32.238897 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/sf/0/%7B%22sender%22%3A%22kv%22%2C%22message%22%3A%22tttt%22%7D?ortt=%7B%22t%22%3A15112618522330608%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=1&uuid=kv
+D, [2017-11-21T16:27:32.609193 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:27:32.609366 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish
+D, [2017-11-21T16:27:50.645931 #14922] DEBUG -- Pubnub::Telemetry: Fetching telemetry for l_pub
+D, [2017-11-21T16:27:50.646006 #14922] DEBUG -- Pubnub::Telemetry: Current average: 0.3701171875
+D, [2017-11-21T16:27:50.646114 #14922] DEBUG -- Pubnub::Event: Initialized Pubnub::Publish
+D, [2017-11-21T16:27:50.650199 #14922] DEBUG -- Pubnub::Publish: Fired event Pubnub::Publish
+D, [2017-11-21T16:27:50.650256 #14922] DEBUG -- Pubnub::Event: #send_request called
+D, [2017-11-21T16:27:50.650284 #14922] DEBUG -- Pubnub::SingleEvent: #request_dispatcher called
+D, [2017-11-21T16:27:50.650386 #14922] DEBUG -- Pubnub::Client: Looking for requester for async single_event
+D, [2017-11-21T16:27:50.650430 #14922] DEBUG -- Pubnub::Event: #send_request got sender
+D, [2017-11-21T16:27:50.650739 #14922] DEBUG -- Pubnub::Event: Requested URI: http://ps.pndsn.com/publish/pub-c-bbcdbd4b-0f54-4306-a7e2-8828d51d61dc/sub-c-74d0027e-ee9b-11e5-8346-0619f8945a4f/0/sf/0/%7B%22sender%22%3A%22kv%22%2C%22message%22%3A%22sdsddsdsd%22%7D?l_pub=0.37&ortt=%7B%22t%22%3A15112618706461518%7D&pnsdk=PubNub-Ruby%2F4.0.27&seqn=2&uuid=kv
+D, [2017-11-21T16:27:50.796923 #14922] DEBUG -- Pubnub::Event: Event#handle
+D, [2017-11-21T16:27:50.797102 #14922] DEBUG -- Pubnub::Event: Firing callbacks for Pubnub::Publish

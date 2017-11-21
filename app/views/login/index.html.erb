@@ -1,0 +1,17 @@
+<h1>Login</h1>
+
+<%= form_tag("/chat", method: "post") do %>
+    <div>
+      <%= label_tag("Username") %>
+      <%= text_field_tag(:username) %>
+    </div>
+
+    <div>
+      <%= label_tag("Channel") %>
+      <%= text_field_tag(:channel) %>
+    </div>
+
+    <div>
+      <%= submit_tag("Login")%>
+    </div>
+<% end %>
