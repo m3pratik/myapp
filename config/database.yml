@@ -18,8 +18,8 @@ default: &default
   host: localhost
   adapter: postgresql
   encoding: unicode
-  username: pgpratik
-  password: t4tiger
+  username: root
+  password: root
     # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
@@ -30,8 +30,8 @@ development:
   database: myapp_development
   host: localhost
   pool: 5
-  username: pgpratik
-  password: t4tiger
+  username: root
+  password: root
   
 
   # The specified database role being used to connect to postgres.
